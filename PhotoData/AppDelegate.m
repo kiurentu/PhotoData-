@@ -7,16 +7,27 @@
 //
 
 #import "AppDelegate.h"
-
+#import "PhotoViewController.h"
+#import "Store.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
++(instancetype)sharedDelegate
+{
+    return [UIApplication sharedApplication].delegate;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    if(isRunningTests()){
+        return YES;
+    }
+    
     // Override point for customization after application launch.
+    //PhotoViewCon
+    
+    
     return YES;
 }
 
@@ -41,5 +52,16 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+static BOOL isRunningTests(void)
+{
+    return  [[[[NSProcessInfo processInfo]environment][@"XCinjectBundle"] pathExtension] isEqualToString:@"octest"];
+}
+
+
+
+
+
+
 
 @end

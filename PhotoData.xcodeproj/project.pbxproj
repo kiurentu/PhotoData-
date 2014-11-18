@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64B7082119EB76FB00961354 /* PhotoDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B7082019EB76FB00961354 /* PhotoDataTestCase.m */; };
+		64B7082319EB773900961354 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7082219EB773900961354 /* SenTestingKit.framework */; };
+		64B7082519EB774B00961354 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7082419EB774B00961354 /* QuartzCore.framework */; };
+		64B7082719EB775B00961354 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7082619EB775B00961354 /* CoreData.framework */; };
+		64B7082919EB777000961354 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7082819EB777000961354 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		64B805CA19E90C6700592459 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B805C819E90C6700592459 /* PhotosViewController.m */; };
+		64B805CB19E90C6700592459 /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B805C919E90C6700592459 /* PhotosViewController.xib */; };
+		64B805CF19E90CAC00592459 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B805CD19E90CAC00592459 /* PhotoCell.m */; };
+		64B805D019E90CAC00592459 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B805CE19E90CAC00592459 /* PhotoCell.xib */; };
+		64B805D419E90D1700592459 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B805D219E90D1700592459 /* DetailsViewController.m */; };
+		64B805D519E90D1700592459 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B805D319E90D1700592459 /* DetailsViewController.xib */; };
+		64B805D819E90D7000592459 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B805D719E90D7000592459 /* ArrayDataSource.m */; };
+		64B805DB19E90DFA00592459 /* Photo+ConfigureForPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B805DA19E90DFA00592459 /* Photo+ConfigureForPhoto.m */; };
+		64B805DF19E90E9D00592459 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B805DD19E90E9D00592459 /* star.png */; };
+		64B805E019E90E9D00592459 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B805DE19E90E9D00592459 /* star@2x.png */; };
+		64B805E419E90ED000592459 /* RatingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B805E219E90ED000592459 /* RatingCell.m */; };
+		64B805E519E90ED000592459 /* RatingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B805E319E90ED000592459 /* RatingCell.xib */; };
+		64B805E919E90F0100592459 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B805E719E90F0100592459 /* PhotoViewController.m */; };
+		64B805EA19E90F0100592459 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B805E819E90F0100592459 /* PhotoViewController.xib */; };
+		64B805EE19E9217B00592459 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B805EC19E9217B00592459 /* DetailViewController.m */; };
+		64B805EF19E9217B00592459 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B805ED19E9217B00592459 /* DetailViewController.xib */; };
 		64FB521319D54AB6007A184E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB521219D54AB6007A184E /* main.m */; };
 		64FB521619D54AB6007A184E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB521519D54AB6007A184E /* AppDelegate.m */; };
 		64FB521919D54AB6007A184E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB521819D54AB6007A184E /* ViewController.m */; };
@@ -14,6 +35,9 @@
 		64FB521E19D54AB6007A184E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB521D19D54AB6007A184E /* Images.xcassets */; };
 		64FB522119D54AB6007A184E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FB521F19D54AB6007A184E /* LaunchScreen.xib */; };
 		64FB522D19D54AB6007A184E /* PhotoDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB522C19D54AB6007A184E /* PhotoDataTests.m */; };
+		64FB523B19D54C0A007A184E /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB523A19D54C0A007A184E /* Store.m */; };
+		64FB523E19D54CF9007A184E /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB523D19D54CF9007A184E /* Photo.m */; };
+		64FB524119D54D0D007A184E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FB524019D54D0D007A184E /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +51,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64B7081F19EB76FB00961354 /* PhotoDataTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoDataTestCase.h; path = Model/PhotoDataTestCase.h; sourceTree = "<group>"; };
+		64B7082019EB76FB00961354 /* PhotoDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoDataTestCase.m; path = Model/PhotoDataTestCase.m; sourceTree = "<group>"; };
+		64B7082219EB773900961354 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64B7082419EB774B00961354 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64B7082619EB775B00961354 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		64B7082819EB777000961354 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64B805C719E90C6700592459 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		64B805C819E90C6700592459 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		64B805C919E90C6700592459 /* PhotosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosViewController.xib; sourceTree = "<group>"; };
+		64B805CC19E90CAC00592459 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		64B805CD19E90CAC00592459 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		64B805CE19E90CAC00592459 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		64B805D119E90D1700592459 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		64B805D219E90D1700592459 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		64B805D319E90D1700592459 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		64B805D619E90D7000592459 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		64B805D719E90D7000592459 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		64B805D919E90DFA00592459 /* Photo+ConfigureForPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+ConfigureForPhoto.h"; sourceTree = "<group>"; };
+		64B805DA19E90DFA00592459 /* Photo+ConfigureForPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+ConfigureForPhoto.m"; sourceTree = "<group>"; };
+		64B805DD19E90E9D00592459 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		64B805DE19E90E9D00592459 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		64B805E119E90ED000592459 /* RatingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingCell.h; sourceTree = "<group>"; };
+		64B805E219E90ED000592459 /* RatingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingCell.m; sourceTree = "<group>"; };
+		64B805E319E90ED000592459 /* RatingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingCell.xib; sourceTree = "<group>"; };
+		64B805E619E90F0100592459 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		64B805E719E90F0100592459 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		64B805E819E90F0100592459 /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		64B805EB19E9217B00592459 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		64B805EC19E9217B00592459 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		64B805ED19E9217B00592459 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		64FB520D19D54AB6007A184E /* PhotoData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FB521119D54AB6007A184E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64FB521219D54AB6007A184E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +94,12 @@
 		64FB522619D54AB6007A184E /* PhotoDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FB522B19D54AB6007A184E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64FB522C19D54AB6007A184E /* PhotoDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoDataTests.m; sourceTree = "<group>"; };
+		64FB523919D54C0A007A184E /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		64FB523A19D54C0A007A184E /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		64FB523C19D54CF9007A184E /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		64FB523D19D54CF9007A184E /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		64FB523F19D54D0D007A184E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		64FB524019D54D0D007A184E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +107,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B7082919EB777000961354 /* CoreGraphics.framework in Frameworks */,
+				64B7082719EB775B00961354 /* CoreData.framework in Frameworks */,
+				64B7082519EB774B00961354 /* QuartzCore.framework in Frameworks */,
+				64B7082319EB773900961354 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +124,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64B7082A19EB777E00961354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B7082819EB777000961354 /* CoreGraphics.framework */,
+				64B7082619EB775B00961354 /* CoreData.framework */,
+				64B7082419EB774B00961354 /* QuartzCore.framework */,
+				64B7082219EB773900961354 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B805DC19E90E9D00592459 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64B805DD19E90E9D00592459 /* star.png */,
+				64B805DE19E90E9D00592459 /* star@2x.png */,
+				64B805E119E90ED000592459 /* RatingCell.h */,
+				64B805E219E90ED000592459 /* RatingCell.m */,
+				64B805E319E90ED000592459 /* RatingCell.xib */,
+			);
+			name = Resources;
+			path = PhotoData/Resources;
+			sourceTree = "<group>";
+		};
 		64FB520419D54AB6007A184E = {
 			isa = PBXGroup;
 			children = (
 				64FB520F19D54AB6007A184E /* PhotoData */,
+				64B805DC19E90E9D00592459 /* Resources */,
 				64FB522919D54AB6007A184E /* PhotoDataTests */,
 				64FB520E19D54AB6007A184E /* Products */,
+				64B7082A19EB777E00961354 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +171,7 @@
 		64FB520F19D54AB6007A184E /* PhotoData */ = {
 			isa = PBXGroup;
 			children = (
+				64FB523619D54B97007A184E /* Model */,
 				64FB521419D54AB6007A184E /* AppDelegate.h */,
 				64FB521519D54AB6007A184E /* AppDelegate.m */,
 				64FB521719D54AB6007A184E /* ViewController.h */,
@@ -89,6 +180,27 @@
 				64FB521D19D54AB6007A184E /* Images.xcassets */,
 				64FB521F19D54AB6007A184E /* LaunchScreen.xib */,
 				64FB521019D54AB6007A184E /* Supporting Files */,
+				64B805C719E90C6700592459 /* PhotosViewController.h */,
+				64B805C819E90C6700592459 /* PhotosViewController.m */,
+				64B805C919E90C6700592459 /* PhotosViewController.xib */,
+				64B805CC19E90CAC00592459 /* PhotoCell.h */,
+				64B805CD19E90CAC00592459 /* PhotoCell.m */,
+				64B805CE19E90CAC00592459 /* PhotoCell.xib */,
+				64B805D119E90D1700592459 /* DetailsViewController.h */,
+				64B805D219E90D1700592459 /* DetailsViewController.m */,
+				64B805D319E90D1700592459 /* DetailsViewController.xib */,
+				64B805D619E90D7000592459 /* ArrayDataSource.h */,
+				64B805D719E90D7000592459 /* ArrayDataSource.m */,
+				64B805D919E90DFA00592459 /* Photo+ConfigureForPhoto.h */,
+				64B805DA19E90DFA00592459 /* Photo+ConfigureForPhoto.m */,
+				64B805E619E90F0100592459 /* PhotoViewController.h */,
+				64B805E719E90F0100592459 /* PhotoViewController.m */,
+				64B805E819E90F0100592459 /* PhotoViewController.xib */,
+				64B805EB19E9217B00592459 /* DetailViewController.h */,
+				64B805EC19E9217B00592459 /* DetailViewController.m */,
+				64B805ED19E9217B00592459 /* DetailViewController.xib */,
+				64B7081F19EB76FB00961354 /* PhotoDataTestCase.h */,
+				64B7082019EB76FB00961354 /* PhotoDataTestCase.m */,
 			);
 			path = PhotoData;
 			sourceTree = "<group>";
@@ -117,6 +229,19 @@
 				64FB522B19D54AB6007A184E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64FB523619D54B97007A184E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64FB523919D54C0A007A184E /* Store.h */,
+				64FB523A19D54C0A007A184E /* Store.m */,
+				64FB523C19D54CF9007A184E /* Photo.h */,
+				64FB523D19D54CF9007A184E /* Photo.m */,
+				64FB523F19D54D0D007A184E /* User.h */,
+				64FB524019D54D0D007A184E /* User.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +325,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				64FB521C19D54AB6007A184E /* Main.storyboard in Resources */,
+				64B805EA19E90F0100592459 /* PhotoViewController.xib in Resources */,
+				64B805CB19E90C6700592459 /* PhotosViewController.xib in Resources */,
+				64B805E019E90E9D00592459 /* star@2x.png in Resources */,
+				64B805EF19E9217B00592459 /* DetailViewController.xib in Resources */,
 				64FB522119D54AB6007A184E /* LaunchScreen.xib in Resources */,
 				64FB521E19D54AB6007A184E /* Images.xcassets in Resources */,
+				64B805DF19E90E9D00592459 /* star.png in Resources */,
+				64B805D019E90CAC00592459 /* PhotoCell.xib in Resources */,
+				64B805E519E90ED000592459 /* RatingCell.xib in Resources */,
+				64B805D519E90D1700592459 /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +352,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B805E419E90ED000592459 /* RatingCell.m in Sources */,
+				64B805CF19E90CAC00592459 /* PhotoCell.m in Sources */,
 				64FB521919D54AB6007A184E /* ViewController.m in Sources */,
 				64FB521619D54AB6007A184E /* AppDelegate.m in Sources */,
+				64B805DB19E90DFA00592459 /* Photo+ConfigureForPhoto.m in Sources */,
+				64FB524119D54D0D007A184E /* User.m in Sources */,
+				64B805CA19E90C6700592459 /* PhotosViewController.m in Sources */,
+				64B805E919E90F0100592459 /* PhotoViewController.m in Sources */,
 				64FB521319D54AB6007A184E /* main.m in Sources */,
+				64B805D419E90D1700592459 /* DetailsViewController.m in Sources */,
+				64FB523E19D54CF9007A184E /* Photo.m in Sources */,
+				64B7082119EB76FB00961354 /* PhotoDataTestCase.m in Sources */,
+				64B805D819E90D7000592459 /* ArrayDataSource.m in Sources */,
+				64FB523B19D54C0A007A184E /* Store.m in Sources */,
+				64B805EE19E9217B00592459 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +488,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = PhotoData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +502,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = PhotoData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +565,7 @@
 				64FB523219D54AB6007A184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64FB523319D54AB6007A184E /* Build configuration list for PBXNativeTarget "PhotoDataTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +574,7 @@
 				64FB523519D54AB6007A184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
