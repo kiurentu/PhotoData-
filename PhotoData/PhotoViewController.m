@@ -14,7 +14,7 @@
 
 
 
-@interface PhotoViewController ()
+@interface PhotoViewController ()<DetailsViewControllerDelegate>
 
 @end
 
@@ -22,9 +22,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self updateForPhoto];
+    
     // Do any additional setup after loading the view from its nib.
 }
-
+-(void)updateForPhoto
+{
+    self.navigationItem.title =self.photo.name;
+    self.authorLabel.text=self.photo.authorFullName;
+    self.photoTakenLabel.text=[NSString stringWithFormat:@"%d",self.photo.user.numberOfPhotoTaken];
+}
+-(void)addPhotoDetailsTableView
+{
+    DetailsViewController *details=[[DetailsViewController alloc]init];
+    details.photo=self.photo;
+    details.delegate=self;
+    [self addChildViewController:details];
+    CGRect frame =self.view.bounds;
+    frame.origin.y=110;
+    details.view.frame=frame;
+    [self.view addSubview:details.view];
+    [details didMoveToParentViewController:self];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1672E292-0CF4-446C-8F67-25CA26C1D800</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PhotoData</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A9E30EFD105C4C8CD08BD7416FF8E29DF88DB1F1</key>
+		<string>https://github.com/kiurentu/PhotoData-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PhotoData.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A9E30EFD105C4C8CD08BD7416FF8E29DF88DB1F1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kiurentu/PhotoData-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A9E30EFD105C4C8CD08BD7416FF8E29DF88DB1F1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A9E30EFD105C4C8CD08BD7416FF8E29DF88DB1F1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PhotoData</string>
+		</dict>
+	</array>
+</dict>
+</plist>
